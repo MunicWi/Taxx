@@ -42,6 +42,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.panelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panelPicTop.SuspendLayout();
@@ -131,6 +132,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.textBox1);
@@ -156,7 +158,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("FC Active", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(863, 319);
+            this.textBox2.Location = new System.Drawing.Point(920, 316);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(221, 58);
@@ -165,7 +167,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("FC Active", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(863, 188);
+            this.textBox1.Location = new System.Drawing.Point(920, 185);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(221, 58);
@@ -174,7 +176,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("FC Active", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(924, 261);
+            this.button1.Location = new System.Drawing.Point(981, 258);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 42);
             this.button1.TabIndex = 1;
@@ -185,12 +187,22 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Taxx.Properties.Resources.rate;
-            this.pictureBox4.Location = new System.Drawing.Point(214, 94);
+            this.pictureBox4.Location = new System.Drawing.Point(186, 94);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(567, 521);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("FC Active", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(781, 323);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(131, 28);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "ภาษีที่ต้องจ่าย";
             // 
             // Group6
             // 
@@ -202,6 +214,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Group6";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Group6";
             this.panelTop.ResumeLayout(false);
             this.panelTop.PerformLayout();
@@ -232,5 +245,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox2;
         public System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label2;
     }
 }

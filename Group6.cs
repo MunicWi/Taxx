@@ -19,37 +19,37 @@ namespace Taxx
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int outcomefinal = int.Parse(textBox1.Text);
+            int oc = int.Parse(textBox1.Text);
             int pay;
 
 
-            if (outcomefinal > 5000001)
+            if (oc > 5000001)
             {
-                pay = (outcomefinal * 35 / 100);
+                pay = (oc * 35 / 100);
             }
-            else if (outcomefinal > 2000001)
+            else if (oc > 2000001)
             {
-                pay = (outcomefinal * 30 / 100);
+                pay = (oc * 30 / 100);
             }
-            else if (outcomefinal > 1000001)
+            else if (oc > 1000001)
             {
-                pay = (outcomefinal * 25 / 100);
+                pay = (oc * 25 / 100);
             }
-            else if (outcomefinal > 750001)
+            else if (oc > 750001)
             {
-                pay = (outcomefinal * 20 / 100);
+                pay = (oc * 20 / 100);
             }
-            else if (outcomefinal > 500001)
+            else if (oc > 500001)
             {
-                pay = (outcomefinal * 15 / 100);
+                pay = (oc * 15 / 100);
             }
-            else if (outcomefinal > 300001)
+            else if (oc > 300001)
             {
-                pay = (outcomefinal * 10 / 100);
+                pay = (oc * 10 / 100);
             }
-            else if (outcomefinal > 150001)
+            else if (oc > 150001)
             {
-                pay = (outcomefinal * 5 / 100);
+                pay = (oc * 5 / 100);
             }
             else
             {
